@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+body {
+    font-family: "Bebas Neue", cursive;
+    font-size: xx-large;
+    text-align: center;
+    background: url(./images/bg.jpg);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    background-color: rgba(250, 235, 215, 0.644);
+    margin: 0px;
+}
+.box {
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    margin: 50px 100px;
+    border: aliceblue solid 5px;
+}
+#amh {
+    background-image: url(./images/allmovieshub.png);
+}
+#hmh {
+    background-image: url(./images/hdmovieshub.png);
+}
+#x {
+    background-image: url(./images/1337x.jfif);
+}
+#em {
+    background-image: url(./images/extramovies.jfif);
+}
+#mv {
+    background-image: url(./images/movieverse.png);
+}
+.dabba {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
